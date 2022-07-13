@@ -1,13 +1,3 @@
-- [spamtrap-system](#orgcc0c853)
-  - [Motivation](#org264d6e6)
-  - [Architecture](#orgc4ee69a)
-    - [Overview](#orga7a9031)
-    - [Results](#orgc901fc2)
-    - [Components](#org7b52234)
-  - [Usage](#orgce31c2d)
-  - [Todo](#org22d5075)
-  - [References](#orgb280b10)
-
 
 <a id="orgcc0c853"></a>
 
@@ -20,8 +10,21 @@ The collectors constitute the spamtraps and transfer the collected spam via the 
 This project aims to be modular to a large extent, so that further collectors, e.g. server honeypots, or reporting components could be added easily.
 
 
-<a id="org264d6e6"></a>
+## Table of Contents
 
+- [spamtrap-system](#orgcc0c853)
+  - [Motivation](#org264d6e6)
+  - [Architecture](#orgc4ee69a)
+    - [Overview](#orga7a9031)
+    - [Results](#orgc901fc2)
+    - [Components](#org7b52234)
+  - [Usage](#orgce31c2d)
+  - [Todo](#org22d5075)
+  - [References](#orgb280b10)
+
+
+<a id="org264d6e6"></a>
+                 
 ## Motivation
 
 At the time (mid 2022) of writing **malspam** is the prevalent method of spreading malware. Malspam is defined as follows:
