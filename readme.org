@@ -111,10 +111,22 @@ the MongoDB just use the ~docker-compose~-files within
 [[file:periphery/][periphery-directory]].
 
 The installation of Cuckoo is a bit more involved and time consuming.
-Therefore, an [[https://www.ansible.com/][Ansible]] role is provided to ease the of this malware
-analysis sandbox. See
-https://github.com/jgru/ansible-cuckoo-virtualbox for further
-information.
+Therefore, an [[https://www.ansible.com/][Ansible]] role can ease the setup of this malware analysis
+sandbox. See https://github.com/jgru/ansible-cuckoo-virtualbox for
+further information.
+
+** Todo
+There are several things that could be added and improved.
+- [ ] Add an option to ingest the decomposed malspam into a pipeline
+  of [[https://github.com/CERT-Polska/karton][Karton]]-tasks
+- [ ] Add a reporting module to deliver the results into a
+  [[https://github.com/MISP/MISP][MISP]]-instance
+- [ ] Add Hatching Tria.ge API-usage as an alternative to the
+  on-premise operation of a /Cuckoo/-sandbox
+- [ ] Add lookups for threat intel services, like Shodan, URLhaus,
+  GreyNoise v2, VT, etc.
+- [ ] Perform performance tests
+- [ ] Your idea...;)
 
 ** References
 
